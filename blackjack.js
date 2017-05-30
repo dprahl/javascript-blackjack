@@ -170,6 +170,7 @@ var testDeck = function(){
 // main game function //
 
 var start = function(){
+  display.innerHTML = "";
   var input;
   var i;
   var j;
@@ -237,7 +238,7 @@ var start = function(){
     }
 
   }
-  println("<br/>If you would like to play again, simply refresh your browser.");
+  println("<br/>Thank you for playing!");
 }//end of start
 
 
